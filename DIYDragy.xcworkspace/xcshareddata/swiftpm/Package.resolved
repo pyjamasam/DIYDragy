@@ -2,30 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "FASwiftUI",
-        "repositoryURL": "https://github.com/mattmaddux/FASwiftUI.git",
-        "state": {
-          "branch": null,
-          "revision": "2e043ec545724b56df7117829f08344da4b00031",
-          "version": "1.0.4"
-        }
-      },
-      {
         "package": "Lilliput",
         "repositoryURL": "https://github.com/jkolb/Lilliput",
         "state": {
           "branch": null,
           "revision": "227c8015491ac9a870463cff02aba8f7111d601b",
           "version": "9.2.0"
-        }
-      },
-      {
-        "package": "QGrid",
-        "repositoryURL": "https://github.com/Q-Mobile/QGrid",
-        "state": {
-          "branch": null,
-          "revision": "804e59f8cb9f66b226685e9369fb82029742b83a",
-          "version": "0.1.4"
         }
       },
       {
