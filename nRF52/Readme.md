@@ -5,4 +5,4 @@ Compiled and tested against the nRF5 SDK version 160098a08e2
 
 Compiled with the free verison of the SEGGER Embedded Studio for Arm v4.52b.
 
-You will need to edit the DIYDrag.emProject file and update the path to the nRF SDK for your install.  Change the path "/Users/chris/Documents/nRF5SDK160098a08e2" to what ever it is on your system.
+You will need to edit the DIYDrag.emProject file and update the path to the nRF SDK for your install.  Change all references to the path "/Users/chris/Documents/nRF5SDK160098a08e2" to what ever it is on your system.
