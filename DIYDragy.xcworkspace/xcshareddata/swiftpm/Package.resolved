@@ -23,8 +23,8 @@
         "package": "swift-log",
         "repositoryURL": "https://github.com/apple/swift-log.git",
         "state": {
-          "branch": "master",
-          "revision": "4f876718737f2c2b2ecd6d4cb4b99e0367b257a4",
+          "branch": "main",
+          "revision": "bda2661797277399ffa66c29701659c2ba02aba4",
           "version": null
         }
       },

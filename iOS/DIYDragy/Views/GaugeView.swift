@@ -100,8 +100,18 @@ open class GaugeView: UIView {
     /// A boolean indicates whether to show unit of measurement.
     @IBInspectable public var showUnitOfMeasurement: Bool = true
     
-    /// The unit of measurement.
-    @IBInspectable public var unitOfMeasurement: String = "km/h"
+    /// The unit of measurement. (initialization default will be km/h
+    @IBInspectable public var unitOfMeasurement: String = UserDefaults.standard.bool(forKey: "mph") ? "mph" : "km/h" {
+        didSet {
+            if unitOfMeasurement == "km/h" {
+                maxValue = 250.0
+                limitValue = 100
+            } else {
+                maxValue = 160
+                limitValue = 60
+            }
+        }
+    }
     
     /// Font of unit of measurement label.
     @IBInspectable public var unitOfMeasurementFont: UIFont = UIFont(name: defaultFontName, size: 16) ?? UIFont.systemFont(ofSize: 16)
