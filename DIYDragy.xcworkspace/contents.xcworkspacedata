@@ -8,6 +8,6 @@
       location = "container:IOS/iOS.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/chris/Documents/Projects/DIYDragy/Framework/Framework.xcodeproj">
+      location = "container:Framework/Framework.xcodeproj">
    </FileRef>
 </Workspace>

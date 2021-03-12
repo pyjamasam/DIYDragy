@@ -16,23 +16,10 @@ struct GaugeView_SwiftUI: UIViewRepresentable {
     func makeUIView(context: Context) -> GaugeView {
         let gauge = GaugeView()
         gauge.showLimitDot = true
-        
-        
-        if (DDAppData.shared.mph) {
-            gauge.unitOfMeasurement = "mph"
-            gauge.maxValue = 160
-            gauge.limitValue = 60
-        } else {
-            gauge.unitOfMeasurement = "km/h"
-            gauge.maxValue = 250.0
-            gauge.limitValue = 100
-        }
-        
         return gauge
     }
 
     func updateUIView(_ uiView: GaugeView, context: Context) {
-        
         if (colorScheme == .light) {
             uiView.backgroundColor = .white
             uiView.ringBackgroundColor = UIColor(white: 0.9, alpha: 1)
